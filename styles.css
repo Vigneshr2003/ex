@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFE9EB;
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.responsive-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.circle {
+    position: absolute;
+    width: 2%;
+    height: 3.5%;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.8vw;
+    font: bolder;
+    box-shadow: 0 0 20px 5px rgba(255, 0, 0, 0.6);
+
+}
+
+/* Positioning circles */
+#circle1 {
+    top: 58.6%;
+    left: 36.9%;
+}
+#circle2 {
+    top: 62%;
+    left: 9.6%;
+}
+#circle3 {
+    top: 63%;
+    left: 14.7%;
+}
+#circle4 {
+    top: 60.7%;
+    left: 66%;
+}
+#circle5 {
+    top: 60.8%;
+    left: 69.4%;
+}
+#circle6 {
+    top: 92.3%;
+    left: 25%;
+}
+#circle7 {
+    top: 64%;
+    left: 27.3%;
+}
+#circle8 {
+    top: 85.1%;
+    left: 18.4%;
+}
+#circle9 {
+    top: 85%;
+    left: 37%;
+}
+
+#circle10{
+    top: 63%;
+    left: 32%;
+}
+
+#circle11{
+    top: 21.2%;
+    left:21%
+}
+
+#circle12{
+    top:21.2%;
+    left: 30.1%;
+}
+#circle13{
+    top: 66.5%;
+    left: 18.5%;
+}
+
+#circle14{
+    top: 66.2%;
+    left: 53.5%;
+}
+
+#circle15{
+    top : 85.5%;
+    left: 58%;
+}
+
+#circle16{
+    top: 21%;
+    left: 43.4%;
+}
+
+#circle17{
+    top: 21.4%;
+    left: 52.5%;
+}
